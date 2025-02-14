@@ -41,10 +41,9 @@ def register_user():
 
 @pytest.fixture()
 def driver():
-    service = webdriver.ChromeService(executable_path='./chromedriver.exe')
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
-    driver = webdriver.Chrome(service=service, options=options)
+    driver = webdriver.Chrome(options=options)
 
     return driver
 

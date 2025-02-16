@@ -1,8 +1,9 @@
-MAIN_URL = 'https://stellarburgers.nomoreparties.site/'
-LOGIN_URL = f'{MAIN_URL}login'
-REGISTRATION_URL = f'{MAIN_URL}register'
-RECOVERY_PASSWORD_URL = f'{MAIN_URL}forgot-password'
-ACCOUNT_URL = f'{MAIN_URL}account/profile'
+BASE_URL = 'https://stellarburgers.nomoreparties.site'
+MAIN_URL = f'{BASE_URL}/'
+LOGIN_URL = f'{BASE_URL}/login'
+REGISTRATION_URL = f'{BASE_URL}/register'
+RECOVERY_PASSWORD_URL = f'{BASE_URL}/forgot-password'
+ACCOUNT_URL = f'{BASE_URL}/account/profile'
 
 REGISTER_USER = {
     'name': '8PhWGOJt',

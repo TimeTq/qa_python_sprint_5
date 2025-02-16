@@ -1,10 +1,3 @@
-MAIN_URL = 'https://stellarburgers.nomoreparties.site/'
-LOGIN_URL = 'https://stellarburgers.nomoreparties.site/login'
-REGISTRATION_URL = 'https://stellarburgers.nomoreparties.site/register'
-RECOVERY_PASSWORD_URL = 'https://stellarburgers.nomoreparties.site/forgot-password'
-ACCOUNT_URL = 'https://stellarburgers.nomoreparties.site/account/profile'
-
-
 class MainPageLocators:
     LOGIN_BTN = ".//button[text()='Войти в аккаунт']"  # Кнопка входа на главной странице
     ACCOUNT_A = ".//p[text()='Личный Кабинет']/.."  # Кнопка "Личный кабинет" на главной странице
